@@ -43,11 +43,12 @@
 .centered-button{
   text-align: center;
   margin-top: 15px;
-  border-radius: 50px;
+  border-radius: 70px;
   font-family: cursive;
   text-align: center;
   background-color: #FFB6C1
 }
 .centered-button:hover {
-  cursor: initial;
+  background-color: #FFB6C1;
+  cursor: pointer;
 }
