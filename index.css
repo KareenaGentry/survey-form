@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   }
 #title {
   font-family: cursive;
@@ -46,7 +46,8 @@
   border-radius: 50px;
   font-family: cursive;
   text-align: center;
+  background-color: #FFB6C1
 }
 .centered-button:hover {
-  background-color: #FFB6C1
+  cursor: pointer;
 }
