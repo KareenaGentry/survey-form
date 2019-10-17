@@ -49,5 +49,5 @@
   background-color: #FFB6C1
 }
 .centered-button:hover {
-  cursor: pointer;
+  cursor: initial;
 }
