@@ -7,6 +7,7 @@
 #fieldset {
   display: flex;
   flex-wrap: wrap;
+  background: 
 }
 #color {
   font-family: cursive;
@@ -33,5 +34,5 @@
 }
 .centered-button{
   text-align: center;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
