@@ -1,0 +1,31 @@
+#main {
+  text-align: center;
+  }
+#title {
+  font-family: cursive;
+}
+#survey-form {
+
+}
+
+#fieldset {
+  display: flex;
+  flex-wrap: wrap;
+}
+#name-label {
+  margin-bottom: 15px;
+}
+#email-label {
+  margin:top: 15px;
+}
+#number-label {
+  margin-top: 15px;
+}
+
+button {
+  align-items: center;
+}
+
+.centered-button{
+  text-align: center;
+}

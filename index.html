@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <main id="main">
+    <body>
+      <h1 id="title">Your Favorite Things</h1>
+      <p id="description">A survey about the things that make you happy</p>
+      <form id="survey-form" action="/submit">
+        <fieldset id="fieldset">
+          <label id="name-label" for="name">Name
+            <input id="name" type="text" name="fullname" required placeholder="Kareena Gentry"></input>
+          </label>
+          <label id="email-label" for="label">Email
+            <input id="email"type="email" name="email" required placeholder="kareenagentry@gmail.com"></input>
+          </label>
+          <label id="number-label" for="number">Number
+            <input id="number" type="number" name="number" min="1" max="10" required placeholder="123-456-7890"></input>
+          </label>
+          <label for="dropdown"> Dropdown List
+            <select id="dropdown">
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+            </select>
+          </label>
+          <h1>What is your favorite color</h1>
+          <label> blue
+            <input type="radio" value="blue" name="color"/>
+          </label>
+          <label> red
+            <input type="radio" value="red" name="color"/>
+          </label>
+          <label> green
+            <input type="radio" value="green" name="color"/>
+          </label>
+          <h1>What is your favorite animal</h1>
+          <label> dog
+            <input type="checkbox" value="dog" name="animal"/>
+          </label>
+          <label> cat
+            <input type="checkbox" value="cat" name="animal"/>
+          </label>
+          <label> bird
+            <input type="checkbox" value="bird" name="animal"/>
+          </label>
+          <label> comments
+            <textarea name="comments"></textarea>
+          </label>
+          <div class="centered-button">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </body>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+</html>
