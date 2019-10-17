@@ -1,9 +1,16 @@
 #main {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   }
 #title {
   font-family: cursive;
   background-color: #FFB6C1;
+}
+#description {
+  background-color: #FFB6C1;
+
 }
 #fieldset {
   display: flex;
