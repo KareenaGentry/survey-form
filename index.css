@@ -4,13 +4,20 @@
 #title {
   font-family: cursive;
 }
-#survey-form {
-
-}
-
 #fieldset {
   display: flex;
   flex-wrap: wrap;
+}
+#color {
+  font-family: cursive;
+  font-size: 20px;
+}
+#dessert {
+  margin-top: 15px;
+}
+#animal {
+  font-family: cursive;
+  font-size: 20px;
 }
 #name-label {
   margin-bottom: 15px;
@@ -21,11 +28,10 @@
 #number-label {
   margin-top: 15px;
 }
-
-button {
-  align-items: center;
+#comments {
+  margin-top: 15px;
 }
-
 .centered-button{
   text-align: center;
+  margin-top: 15px; 
 }
