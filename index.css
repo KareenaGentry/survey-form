@@ -3,11 +3,12 @@
   }
 #title {
   font-family: cursive;
+  background-color: #FFB6C1;
 }
 #fieldset {
   display: flex;
   flex-wrap: wrap;
-  background: 
+  background:
 }
 #color {
   font-family: cursive;
@@ -35,4 +36,10 @@
 .centered-button{
   text-align: center;
   margin-top: 15px;
+  border-radius: 50px;
+  font-family: cursive;
+  text-align: center;
+}
+.centered-button:hover {
+  background-color: #FFB6C1
 }
