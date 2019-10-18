@@ -37,7 +37,6 @@
   margin-top: 15px;
 }
 #comments {
-  margin-top: 15px;
 }
 #submit {
   border-radius: 70px;
@@ -48,6 +47,8 @@
   background-color: #FFB6C1;
   cursor: pointer;
 }
-#memory {
-  text-align: center;
+#display-flex {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
