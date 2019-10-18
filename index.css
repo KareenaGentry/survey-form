@@ -10,7 +10,6 @@
 }
 #description {
   background-color: #FFB6C1;
-
 }
 #fieldset {
   display: flex;
@@ -23,12 +22,32 @@
 #dessert {
   margin-top: 15px;
 }
+#name-tag {
+  font-family: cursive;
+  font-size: 15px;
+  display: inline;
+}
+#number-tag {
+  font-family: cursive;
+  font-size: 15px;
+  display: inline;
+}
+#email-tag {
+  font-family: cursive;
+  font-size: 15px;
+  display: inline;
+}
 #animal {
   font-family: cursive;
   font-size: 20px;
 }
+#header {
+  font-size: 20px;
+  font-family: cursive;
+}
 #name-label {
   margin-bottom: 15px;
+  justify-content: center;
 }
 #email-label {
   margin:top: 15px;
@@ -37,6 +56,8 @@
   margin-top: 15px;
 }
 #comments {
+  width: 200px;
+  height: 90px;
 }
 #submit {
   border-radius: 70px;
@@ -48,7 +69,8 @@
   cursor: pointer;
 }
 #display-flex {
+  font-family: cursive;
+  font-size: 10px;
   justify-content: space-around;
   align-items: center;
-  display: flex;
 }

@@ -9,16 +9,16 @@
       <p id="description">A survey about the things that make you happy</p>
       <form id="survey-form" action="/submit">
         <fieldset id="fieldset">
-          <label id="name-label" for="name">Name
+          <label id="name-label" for="name"><h1 id="name-tag">Name</h1>
             <input id="name" type="text" name="fullname" required placeholder="ex. Kareena Gentry"></input>
           </label>
-          <label id="email-label" for="label">Email
+          <label id="email-label" for="label"><h1 id="email-tag">Email</h1>
             <input id="email"type="email" name="email" required placeholder="ex. kareenagentry@gmail.com"></input>
           </label>
-          <label id="number-label" for="number">Age
+          <label id="number-label" for="number"><h1 id="number-tag">Age</h1>
             <input id="number" type="number" name="number" min="1" max="100" required placeholder="ex. 18"></input>
           </label>
-          <label id="dessert" for="dropdown"> Favorite Dessert
+          <label id="dessert" for="dropdown"> <h1 id="header">What is your favorite dessert</h1>
             <select id="dropdown">
               <option>Cake</option>
               <option>Ice cream</option>
@@ -45,7 +45,7 @@
           <label> horse
             <input type="checkbox" value="bird" name="animal"/>
           </label>
-          <label id="display-flex"> <p id="memory">Favorite Memory</p>
+          <label id="display-flex"> <h1 id="memory">What is your favorite memory</h1>
             <textarea id="comments" name="comments"></textarea>
           </label>
           <div class="centered-button">
