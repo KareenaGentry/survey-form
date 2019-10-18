@@ -41,14 +41,23 @@
   margin-top: 15px;
 }
 .centered-button{
+  border-radius: 70px;
   text-align: center;
   margin-top: 15px;
-  border-radius: 70px;
   font-family: cursive;
   text-align: center;
   background-color: #FFB6C1
 }
 .centered-button:hover {
+  background-color: #FFB6C1;
+  cursor: pointer;
+}
+#submit {
+  border-radius: 70px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: cursive;
+  text-align: center;
   background-color: #FFB6C1;
   cursor: pointer;
 }
