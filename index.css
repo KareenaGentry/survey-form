@@ -40,10 +40,6 @@
 #comments {
   margin-top: 15px;
 }
-.centered-button:hover {
-  background-color: #FFB6C1;
-  cursor: pointer;
-}
 #submit {
   border-radius: 70px;
   text-align: center;
