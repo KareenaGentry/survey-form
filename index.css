@@ -15,7 +15,6 @@
 #fieldset {
   display: flex;
   flex-wrap: wrap;
-  background:
 }
 #color {
   font-family: cursive;
@@ -48,4 +47,7 @@
   text-align: center;
   background-color: #FFB6C1;
   cursor: pointer;
+}
+#comments {
+  text-align: center;
 }
